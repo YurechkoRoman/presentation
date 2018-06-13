@@ -1,0 +1,108 @@
+.nav,
+.logo,
+.menu a ,
+.trip,
+.trip__about,
+.trip__price {
+	display: inline-block;
+}
+
+.container {
+	display: block;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.menu {
+	display: inline-block;
+	font-size: 0;
+	float: right;
+}
+
+
+.menu__item {
+	display: inline-block;
+	list-style:  none;
+	padding-top: 15px;
+}
+
+.hero-title {
+	margin-top: 70px;
+}
+
+.places__header {
+	display: inline-block;
+	font-size: 0;
+}
+
+.places__header-item {
+	display: inline-block;
+	width: 50%;
+}
+
+.title {
+	display: block;
+}
+
+.places__header-item .text {
+	padding-left: 30px;
+}
+
+.gallery__item {
+	float: left;
+}
+
+	
+
+.gallery {
+	display: inline-block; 
+	width: 100%;
+}
+
+.section-offer,
+.banner {
+	text-align: center;
+}
+
+.trip {
+	font-size: 0;
+}
+
+.trip__about,
+.trip__price {
+	height: 215px;
+	overflow: hidden;
+}
+
+.box::after {
+	display: none;
+}
+
+.hot .trip {
+	float: right;
+}
+
+.hot__bottom .mark {
+	width: 170px;
+}
+
+.social{
+	display: inline-block;
+	font-size: 0;
+}
+.back,
+.socials,
+.company{
+	display: inline-block;
+}
+
+.footer .container {
+	display: block;
+}
+
+
+.company {
+	float: right;
+}
